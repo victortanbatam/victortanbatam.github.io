@@ -1,0 +1,396 @@
+@font-face {
+    font-family: university;
+    src: url(../../Downloads/Font/University.otf);
+}
+@font-face {
+    font-family: thebloodfont;
+    src: url(../../Downloads/Font/THEBOLDFONT.ttf);
+}
+body {
+    margin: auto;
+    background-color: #2e224a;
+    background-size: 0px 10px;
+}
+
+/* navigation */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2e224a;
+    padding: 9px 9px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    z-index: 3;
+}
+.logo img {
+    width: 50%;
+    padding-bottom: 11px;
+}
+nav .menu ul {
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+}
+.menu li {
+    padding: 0px 5px;
+    font-weight: bold;
+}
+li a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    align-items: center;
+}
+.textheader {
+    padding-left: 80px;
+    padding-top: 55px;
+}
+.textcontent {
+    padding: 0px 10px;
+}
+.textheader h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 28px;
+}
+.textheader h1 {
+    font-family: university;
+    color: white;
+    font-size: 42px;
+}
+.textheader h3 {
+    font-family: university;
+    color: white;
+    padding-top: 19px;
+}
+.textheader h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f67954;
+    font-size: 29px;
+}
+.socialmedia p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 11px;
+}
+.mypicture img {
+    width: 387pt;
+    padding-top: 19vh;
+    padding-right: 35px;
+}
+.socialmedia {
+    display: flex;
+    padding-left: 24px;
+    padding-top: 5px;
+}
+.socialmedia img {
+    width: 3%;
+    height: 100%;
+    padding-left: 4px;
+    padding-top: 8px;
+}
+.textheader h4, .textheader h2 {
+    font-weight: bold;
+}
+
+.aboutme {
+    background-color: #130827;
+    background-size: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtitle {
+    font-family: university;
+    padding-left: 32px;
+}
+.subtitle h3 {
+    color: #f67954;
+    font-size: 42px;
+    position: absolute;
+    z-index: 1;
+    padding-top: 24pt;
+}
+.table tr {
+    border-bottom-width: inherit;
+}
+.subtitle h1 {
+    font-size: 61pt;
+    opacity: 23%;
+    z-index: -1;
+    padding-left: 24px;
+    padding-top: 7px;
+}
+.textcontent {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.unv {
+    font-family: university;
+    color: #f67954;
+}
+.biodata {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.description {
+    width: 35%;
+}
+table td {
+    color: white;
+}
+.education ul {
+    color: white;
+}
+.table {
+    width: 38%;
+}
+
+
+.skills {
+    background-color: #2e224a;
+    padding-bottom: 50px;
+}
+.comparison {
+    display: flex;
+    color: white;
+}
+.application {
+    padding-left: 30px;
+    width: 50%;
+    padding-right: 19px;
+}
+.unv2 {
+    font-family: university;
+}
+.comparison h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bar {
+    border-radius: 10px;
+    background-color: white;
+    color: white;
+    height: 19px;
+}
+.insidebar1 {
+    padding: 0.01em;
+    background-color: #f67954;
+    border-radius: 10px;
+    width: 75%;
+    height: 19px;
+}
+.insidebar2 {
+    padding: 0.01em;
+    background-color: #f67954;
+    border-radius: 10px;
+    width: 55%;
+    height: 19px;
+}
+.insidebar3 {
+    padding: 0.01em;
+    background-color: #f67954;
+    border-radius: 10px;
+    width: 50%;
+    height: 19px;
+}
+.insidebar4 {
+    padding: 0.01em;
+    background-color: #f67954;
+    border-radius: 10px;
+    width: 60%;
+    height: 19px;
+}
+.insidebar5 {
+    padding: 0.01em;
+    background-color: #f67954;
+    border-radius: 10px;
+    width: 90%;
+    height: 19px;
+}
+.insidebar6 {
+    padding: 0.01em;
+    background-color: #f67954;
+    border-radius: 10px;
+    width: 40%;
+    height: 19px;
+}
+.bar ::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.bar ::before {
+    display: table;
+    content: "";
+    clear: both;
+}
+.textcomparison {
+    display: flex;
+    justify-content: space-between;
+}
+.language {
+    width: 50%;
+    padding-left: 19px;
+    padding-right: 30px;
+}
+.subcomparison {
+    padding-bottom: 31px;
+}
+.application h2, .language h2 {
+    font-size: 24px;
+    padding-bottom: 7px;
+}
+
+
+.project1 img, .project2 img, .project3 img {
+    width: 68%;
+    border-radius: 30px;
+    box-shadow: 10px 10px #DDDDDD;
+}
+.whiterectangle {
+    width: 68%;
+    border-radius: 30px;
+    background-color: white;
+    height: 207px;
+    box-shadow: 10px 10px #DDDDDD;
+}
+.backgroundlogo img {
+    position: absolute;
+    width: 27%;
+    padding-left: 47px;
+    padding-top: 68px;
+}
+.myprojects p {
+    font-family: university;
+    color: white;
+}
+.audio {
+    padding-left: 92px;
+    padding-top: 24px;
+}
+.logodesign {
+    padding-left: 80px;
+    padding-top: 24px;
+}
+.firstpart {
+    display: flex;
+    margin-left: 111pt;
+}
+.secondpart {
+    display: flex;
+    justify-content: space-evenly;
+}
+.secondpart img {
+    width: 27%;
+    border: 12px solid #DDDDDD;
+}
+.thirdpart img {
+    width: 53%;
+    border-radius: 30px;
+}
+.secondpart {
+    padding-left: 144pt;
+    padding-right: 144pt;
+}
+.project5 p {
+    padding-left: 156pt;
+    padding-top: 13px;
+}
+.project6 p {
+    padding-top: 57px;
+    width: 76%;
+}
+video {
+    margin-left: 161px;
+}
+.modal-body-1 img {
+    width: 97%;
+    margin-top: 117px;
+    margin-left: 19px;
+}
+.thirdpart {
+    display: flex;
+    padding-bottom: 19px;
+}
+.thirdpart a {
+    display: flex;
+    justify-content: center;
+    width: 94%;
+    margin-left: 75px;
+}
+.modal-body-2 img {
+    width: 97%;
+    margin-left: 12px;
+}
+
+footer {
+    background-color: #2e224a;
+}
+footer h1, .contact h3 {
+    font-family: university;
+}
+.contact p {
+    font-family:Arial, Helvetica, sans-serif;
+}
+footer h1 {
+    color: #f67954;
+    text-align: center;
+    padding-top: 29px;
+    font-size: 36px;
+}
+.contact h3, .contact p {
+    color: #DDDDDD;
+}
+.contact h3 {
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+.circle {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #707070;
+    border-radius: 50%;
+}
+.contact img {
+    width: 4%;
+    height: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.outercircle {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+.insidecontact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 72px;
+}
+.contact {
+    height: 300px;
+    position: relative;
+    display: flex;
+    padding-bottom: 35px;
+    padding-top: 30px;
+}
+.socialmedia2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.insidecontact p {
+    font-size: 19px;
+}
